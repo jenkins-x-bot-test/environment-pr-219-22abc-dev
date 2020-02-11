@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: arcalos-environments
+    provider: github
+    repository: bdd-spring-1581433934
+  name: arcalos-environments-bdd-spring-1581433934
+spec:
+  description: Imported application for arcalos-environments/bdd-spring-1581433934
+  httpCloneURL: https://github.com/arcalos-environments/bdd-spring-1581433934.git
+  org: arcalos-environments
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: bdd-spring-1581433934
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/arcalos-environments/bdd-spring-1581433934.git

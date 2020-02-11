@@ -6,8 +6,8 @@ dependencies:
   version: 0.0.407
   versionURL: https://github.com/cloudbees/jx-tenant-service/releases/tag/v0.0.407
 - host: github.com
-  owner: jenkins-x
-  repo: bdd-jx
-  url: https://github.com/jenkins-x/bdd-jx.git
+  owner: arcalos-environments
+  repo: bdd-spring-1581433934
+  url: https://github.com/arcalos-environments/bdd-spring-1581433934.git
   version: ""
   versionURL: ""
