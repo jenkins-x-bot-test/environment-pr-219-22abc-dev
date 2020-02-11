@@ -20,6 +20,14 @@ pipelineConfig:
         environment:
         - name: DEPLOY_NAMESPACE
           value: jx
+        - name: GIT_AUTHOR_NAME
+          value: jenkins-x-bot-test
+        - name: GIT_COMMITTER_NAME
+          value: jenkins-x-bot-test
+        - name: GIT_AUTHOR_EMAIL
+          value: jenkins-x@googlegroups.com
+        - name: GIT_COMMITTER_EMAIL
+          value: jenkins-x@googlegroups.com
         stages:
         - name: release
           steps:
@@ -213,7 +221,7 @@ pipelineConfig:
           - args:
             - ""
             - ""
-            - "now populating projects...."
+            - now populating projects....
             - ""
             - ""
             command: echo
