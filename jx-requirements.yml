@@ -1,0 +1,40 @@
+autoUpdate:
+  enabled: true
+  schedule: '0 0 * * *'
+cluster:
+  clusterName: ""
+  environmentGitOwner: ""
+  project: ""
+  provider: gke
+  zone: ""
+gitops: true
+githubApp:
+  enabled: false
+  url: ""
+  schedule: '0 0 * * *'
+environments:
+- key: dev
+- key: staging
+- key: production
+ingress:
+  domain: ""
+  externalDNS: true
+  tls:
+    email: jenkins-x@cloudbees.com
+    enabled: true
+    production: false
+kaniko: true
+secretStorage: vault
+storage:
+  logs:
+    enabled: false
+    url: ""
+  reports:
+    enabled: false
+    url: ""
+  repository:
+    enabled: false
+    url: ""
+velero:
+  namespace: velero
+webhook: prow
